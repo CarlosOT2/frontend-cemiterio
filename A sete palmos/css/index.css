@@ -198,6 +198,11 @@
     white-space: nowrap;
 }
 
+.home__contatos__link:hover {
+    background-color: white;
+    color: #D5A85D;
+}
+
 
 /* # Media Queries */
 @media (max-width: 1000px) {
