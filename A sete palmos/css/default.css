@@ -23,6 +23,10 @@ header{
     text-decoration: none;
 }
 
+.a_nav_style:hover {
+    color: #D5A85D;
+}
+
 ul{
     display: flex;
     list-style: none;
