@@ -1,0 +1,48 @@
+.planos {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.planos h1 {
+    width: 100%;
+    font-size: 3rem;
+    color: #D5A85D;
+}
+
+.planos p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.planos-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+}
+
+.planos-list li img {
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .planos-list {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 450px) {
+    .planos-list li {
+        width: 80%;
+    }
+}

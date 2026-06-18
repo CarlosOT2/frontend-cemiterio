@@ -27,7 +27,7 @@ header{
     color: #D5A85D;
 }
 
-ul{
+.header-list {
     display: flex;
     list-style: none;
     margin-right: 35px;
@@ -41,6 +41,7 @@ ul{
 .nav-items{
     font-size: 25px;
     margin: 10px;
+    white-space: nowrap;
 }
 
 
@@ -50,14 +51,16 @@ ul{
         flex-direction: column;
     }
 
-    ul {
+    .header-list {
         margin-right: 0;
+
     }
 }
 
 @media (max-width: 500px){
     .nav-items {
         font-size: 16px;
+        white-space: wrap;
     }
 }
 
