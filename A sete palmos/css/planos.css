@@ -2,12 +2,14 @@
     width: 80%;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 150px;
 }
 
 .planos h1 {
     width: 100%;
     font-size: 3rem;
     color: #D5A85D;
+    margin-bottom: 50px;
 }
 
 .planos p {

@@ -1,0 +1,21 @@
+.empresa {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.empresa h1 {
+    width: 100%;
+    font-size: 3rem;
+    color: #D5A85D;
+    margin-bottom: 50px;
+}
+
+.empresa p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+

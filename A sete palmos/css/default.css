@@ -44,7 +44,23 @@ header{
     white-space: nowrap;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 125px;
+    background-color: #252F3F;
+}
 
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    color: white;
+}
 
 @media (max-width: 1000px){
     header {
@@ -57,6 +73,13 @@ header{
     }
 }
 
+@media (max-width: 700px) {
+    footer div {
+        justify-content: center;
+        gap: 15px;
+        flex-direction: column-reverse;
+    }
+}
 @media (max-width: 500px){
     .nav-items {
         font-size: 16px;
